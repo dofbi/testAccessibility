@@ -1,0 +1,14 @@
+{
+  "name": "testaccessibility",
+  "version": "0.0.1",
+  "description": "A tool to audit websites using Google Lighthouse",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash scripts/lighthouse-audit.sh"
+  },
+  "author": "Mamadou Diagne",
+  "license": "MIT",
+  "dependencies": {
+    "lighthouse": "^8.6.0"
+  }
+}
